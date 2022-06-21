@@ -72,7 +72,8 @@
       <ul>
         <h2><input value={task.name}
           placeholder="Input Name & Enter !"
-          on:keydown={e => e.key === 'Enter' && Rename(task, e.target)}> 
+          on:keydown={e => e.key === 'Enter' && Rename(task, e.target)}
+          class = "name"> 
           {task.point} point
         </h2>
         <button class="btn btn--orange btn--radius" on:click={() => Add(task)}> ＋ </button>
@@ -106,6 +107,13 @@
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgb(68, 159, 172);
+  }
+
+  .name {
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    width:100%;
   }
 
 	.btn--orange,
