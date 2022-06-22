@@ -2,8 +2,6 @@
 	import {Counter} from './counter';
   import { scale } from 'svelte/transition';
 
-  let DelateIndex: number;
-
 	//List of counter
 	let CounterArray: Counter[] = []
 	
@@ -49,7 +47,6 @@
       }
     });
   }
-	
 </script>
 
 <main>
