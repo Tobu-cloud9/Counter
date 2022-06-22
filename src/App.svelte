@@ -84,8 +84,6 @@
     {/key}
     <p></p>
 	{/each}
-	 
-	
 </main>
 
 <style>
